@@ -124,7 +124,7 @@ $ git log
 <p style="font-size: 15px;">Git works by taking snapshots of changes over the life of project. `git add` specifies what will go in a snapshot (putting things in the staging area), and `git commit` then actually takes the snapshot and makes a permanent record of it (as a commit). 
 
  
- (![image](https://private-user-images.githubusercontent.com/147043473/404352270-639861d6-1306-49ab-aaf7-1a2f81d5fa62.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzczOTE0NzMsIm5iZiI6MTczNzM5MTE3MywicGF0aCI6Ii8xNDcwNDM0NzMvNDA0MzUyMjcwLTYzOTg2MWQ2LTEzMDYtNDlhYi1hYWY3LTFhMmY4MWQ1ZmE2Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyMFQxNjM5MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMDM3YjY3MDM5NWQxNGQ0ODE3ZTM0MjM5YTY3NGFhZTU3MzQyYjA1NzdlNDkzZTlmMzA4ZjVjOWJkNDBmOGQ0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.2sGBqnsoe-Xkj18jbDPlWm0WV95GUym5RWIGd84DJtE)
+ (![image](/home/abc12/Pictures/Untitled.png)
 
 **Conflicts**
 Conflicts occur when two or more people change the same lines of the same file
