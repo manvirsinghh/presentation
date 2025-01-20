@@ -122,3 +122,9 @@ $ git log
 ### Git Staging Area
 
 <p style="font-size: 15px;">Git works by taking snapshots of changes over the life of project. `git add` specifies what will go in a snapshot (putting things in the staging area), and `git commit` then actually takes the snapshot and makes a permanent record of it (as a commit). 
+
+ (![image](https://github.com/user-attachments/assets/639861d6-1306-49ab-aaf7-1a2f81d5fa62)
+
+
+**Conflicts**
+Conflicts occur when two or more people change the same lines of the same file
