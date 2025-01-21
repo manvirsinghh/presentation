@@ -61,7 +61,7 @@ Changes to be committed:
 	new file:   filename
 ```
 
-Git now knows that it’s supposed to keep track of guacamole.md, but it hasn’t recorded these changes as a commit yet. To get it to do that, we need to run one more command:
+Git now knows that it’s supposed to keep track of filename.md, but it hasn’t recorded these changes as a commit yet. To get it to do that, we need to run one more command:
 BASH
 
 - $ git commit -m "give any message"
