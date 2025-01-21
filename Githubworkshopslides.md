@@ -72,7 +72,7 @@ BASH
 
  ```
  Push the file into repo
-- $ git origin origin main
+- $ git origin  main
    
 If we want to know what we’ve done recently, we can ask Git to show us the project’s history using git log:
 
