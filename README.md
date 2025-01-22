@@ -71,15 +71,72 @@ Changes to be committed:
 ```
 
 Git now knows that it’s supposed to keep track of filename.md, but it hasn’t recorded these changes as a commit yet. To get it to do that, we need to run one more command:
-BASH
 
+```bash
 - $ git commit -m "give any message"
- ```bash
+
 [main (root-commit) f22b25e] 
  1 file changed, 1 insertion(+)
  create mode 100644 filename
-
+```
  ```
+**Exploring the history**
+We use git diff command to know the 
+```bash
+$ git diff HEAD filename.md
+```
+Note that **HEAD** is the default option for git diff, so omitting it will not change the command’s output at all (give it a try). However, the real power of git diff lies in its ability to compare with previous commits. For example, by adding ~1 , we can look at the commit before HEAD.
+
+**original file**
+```bash
+
+# Guacamole
+## Ingredients
+* avocado
+* lime
+* salt
+```
+- Explanation: This is the original version of the guacamole.md file, which lists the ingredients but does not yet contain any instructions. Instructions
+
+**Change Made to the File**
+ ```bash
+# Guacamole
+## Ingredients
+* avocado
+* lime
+* salt
+## Instructions
+An ill-considered change
+
+Explanation: In this step, the file is modified by adding the line "An ill-considered change" under the Instructions section.
+
+ Using git **diff** to View the Change
+```bash
+git diff HEAD guacamole.md
+
+```
+**OUTPUT**
+``` bash
+diff --git a/guacamole.md b/guacamole.md
+index b36abfd..0848c8d 100644
+--- a/guacamole.md
++++ b/guacamole.md
+@@ -4,3 +4,4 @@
+ * lime
+ * salt
+ ## Instructions
++An ill-considered change
+```
+
+
+###Explanation of git diff Output:
+
+  -  diff --git a/guacamole.md b/guacamole.md: This shows the comparison of the file guacamole.md.
+  -  index b36abfd..0848c8d: Represents the hashes of the commit before and after the change.
+  -  --- a/guacamole.md: The file before the change.
+  -  +++ b/guacamole.md: The file after the change.
+  -  +An ill-considered change: The + sign indicates that this line was added in the current commit.
+
  Push the file into repo
 - $ git origin  main
    
@@ -98,3 +155,5 @@ If we want to know what we’ve done recently, we can ask Git to show us the pro
 
 **Conflicts**
 Conflicts occur when two or more people change the same lines of the same file.
+
+
