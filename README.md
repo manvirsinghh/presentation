@@ -153,7 +153,7 @@ cd       # Navigate to your home directory
 cd Desktop   # Change directory to the Desktop folder
 ```
 
- # Questions
+ 
 
 ### **What is Version Control, and Why Should I Use It?**
 
@@ -196,21 +196,20 @@ cd Desktop   # Change directory to the Desktop folder
 
 ---
 
-# A Simple Git Example
-### **How It Works:**
-1. **Start Version Control**:
-   ```bash
-   git init
-```
 
-⚙️ Setting Up Git:
+ ##⚙️ Setting Up Git:
 
-When using Git for the first time on a new computer, some configurations are necessary:
+### ** How do I get set up to use Git? **
+When using Git for the first time on a computer, some configurations are necessary:
 
-```bash
-$ git config --global user.name "Your Name"
-$ git config --global user.email "your.email@example.com"
-```
+
+Below are a few examples of configurations we will set as we get started with Git:
+
+    our name and email address,
+    what our preferred text editor is,
+    and that we want to use these settings globally (i.e. for every project).
+
+
 
 Git Help and Manual:
 
