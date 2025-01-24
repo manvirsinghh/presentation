@@ -398,6 +398,27 @@ Git takes snapshots of changes over the life of a project. The `git add` command
 
 ![Diagram](https://github.com/user-attachments/assets/639861d6-1306-49ab-aaf7-1a2f81d5fa62)
 
-Conflicts:
+**Exploring History**
 
-Conflicts occur when two or more people change the same lines of the same file.
+
+Before we start, let’s make a change to guacamole.md, adding yet another line.
+
+
+![image](https://github.com/user-attachments/assets/4d112a17-34c1-4b2f-a3bd-6854b35fe827)
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/086a86dc-6cf6-497d-a703-715ca27ad92e)
+
+
+Now, let’s see what we get.
+![image](https://github.com/user-attachments/assets/e6bf9d49-06a1-497e-a433-82caffb33bf6)
+
+
+
+Note that HEAD is the default option for git diff, so omitting it will not change the command’s output at all (give it a try). However, the real power of git diff lies in its ability to compare with previous commits. For example, by adding ~1 (where “~” is “tilde”, pronounced [til-duh]), we can look at the commit before HEAD.
+
+
+![image](https://github.com/user-attachments/assets/6a14be4d-ec67-4358-b2bc-614385dfb564)
