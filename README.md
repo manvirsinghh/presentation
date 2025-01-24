@@ -514,9 +514,82 @@ As soon as the repository is created, GitHub displays a page with a URL and some
 
 
 
+
+
+
+
 **2. Connect local to remote repository**
 
 Now we connect the two repositories. We do this by making the GitHub repository a remote for the local repository. The home page of the repository on GitHub includes the URL string we need to identify it:
 
 
 ![image](https://github.com/user-attachments/assets/cd3ab4a9-9a52-4867-a7e5-6c6a5e0ec580)
+
+
+
+Copy that URL from the browser, go into the local recipes repository, and run this command:
+
+
+![image](https://github.com/user-attachments/assets/e4072c4d-f472-49cb-9604-0a36c8eb0629)
+
+origin is a local name used to refer to the remote repository. It could be called anything, but origin is a convention that is often used by default in git and GitHub,
+
+
+
+We can check that the command has worked by running git remote -v:
+
+![image](https://github.com/user-attachments/assets/a220f413-b9e5-4d02-90e8-3ab0c8097889)
+
+
+We’ll discuss remotes in more detail further , while talking about how they might be used for collaboration.
+
+
+
+
+ **3) Push local changes to a remote**
+
+ This command will push the changes from our local repository to the repository on GitHub:
+
+
+
+ ![image](https://github.com/user-attachments/assets/7e3a6a1e-79aa-46e1-8e17-b657c4b90363)
+
+
+**Collaborating**
+
+
+ ###### How can weuse version control to collaborate with other people?
+
+ For the next step, get into pairs. One person will be the “Owner” and the other will be the “Collaborator”. The goal is that the Collaborator add changes into the Owner’s repository. We will switch roles at the end, so both persons will play Owner and Collaborator.
+
+
+
+ The Owner needs to give the Collaborator access. In your repository page on GitHub, click the “Settings” button on the right, select “Collaborators”, click “Add people”, and then enter your partner’s username
+Here I am owner and sukhlotey is collaborator 
+
+ ![image](https://github.com/user-attachments/assets/2523bb79-0701-41c6-b209-0635dd998e66)
+
+
+Then add people 
+
+![image](https://github.com/user-attachments/assets/c737220f-30db-4414-9914-050ef14164ba)
+
+i have successfully added the collaborator named sukhlotey
+
+
+
+To accept access to the Owner’s repo, the Collaborator needs to go to https://github.com/notifications or check for email notification. Once there he can accept access to the Owner’s repo.
+
+Next, the Collaborator needs to download a copy of the Owner’s repository to her machine. This is called “cloning a repo”.
+
+
+
+The Collaborator doesn’t want to overwrite her own version of recipes.git, so needs to clone the Owner’s repository to a different location than her own repository with the same name.
+
+
+
+To clone the Owner’s repo into her Desktop folder, the Collaborator enters:
+
+$ git clone git@github.com:username/recipes.git folder name 
+
+
