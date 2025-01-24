@@ -422,3 +422,20 @@ Note that HEAD is the default option for git diff, so omitting it will not chang
 
 
 ![image](https://github.com/user-attachments/assets/6a14be4d-ec67-4358-b2bc-614385dfb564)
+
+
+You can check it has same output 
+![image](https://github.com/user-attachments/assets/82174314-c702-4eef-8fcd-7f457b512b1f)
+
+**Exploring history**
+
+We can put things back the way they were by using git restore:
+
+
+![image](https://github.com/user-attachments/assets/c8ecd60f-4292-437a-a77e-3bc37ff229c1)
+
+
+
+
+
+
