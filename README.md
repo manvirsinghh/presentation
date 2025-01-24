@@ -1,5 +1,5 @@
-📝 Daily Live Report (6 Months)
-📊 GitHub Workshop Report
+ # 📝 Daily Live Report (6 Months)
+ # 📊 GitHub Workshop Report
 
 📅 Date: 15/01/2025
 
@@ -9,7 +9,7 @@
 
 ---
 
-🔍 Learnings from the Workshop:
+ ### 🔍 Learnings from the Workshop:
 
  # **Summary and setup**
 
@@ -470,3 +470,53 @@ These patterns tell Git to ignore any file whose name ends in .png and everythin
 
 
 
+   ### Remotes in GitHub
+
+
+ ##### How do we share my changes with others on the web?
+
+
+ Let’s start by sharing the changes we’ve made to our current project with the world. To this end we are going to create a remote repository that will be linked to our local repository.
+
+
+
+##  1. Create a remote repository:-
+Log in to GitHub, then click on the icon in the top right corner to create a new repository called recipes:
+
+
+
+ ![image](https://github.com/user-attachments/assets/03c1e97c-82eb-4d33-8b90-0bc8e08af441)
+
+
+
+ Name your repository “recipes” and then click “Create Repository”.
+
+
+
+
+
+ Note: Since this repository will be connected to a local repository, it needs to be empty. Leave “Initialize this repository with a README” unchecked, and keep “None” as options for both “Add .gitignore” and “Add a license.” See the “GitHub License and README files” exercise below for a full explanation of why the repository needs to be empty.
+The second step in creating a repository on GitHub: filling out the new repository form to provide the repository name, and specify that neither a readme nor a license should be created
+
+
+![image](https://github.com/user-attachments/assets/b1877b00-da70-4a38-9434-db240c01c172)
+
+
+
+Click on create button to create the repository
+
+As soon as the repository is created, GitHub displays a page with a URL and some information on how to configure your local repository:
+
+
+
+![image](https://github.com/user-attachments/assets/7d22e5f2-628a-4c4c-ab48-92287682bdff)
+
+
+
+
+**2. Connect local to remote repository**
+
+Now we connect the two repositories. We do this by making the GitHub repository a remote for the local repository. The home page of the repository on GitHub includes the URL string we need to identify it:
+
+
+![image](https://github.com/user-attachments/assets/cd3ab4a9-9a52-4867-a7e5-6c6a5e0ec580)
