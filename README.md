@@ -424,6 +424,9 @@ Note that HEAD is the default option for git diff, so omitting it will not chang
 ![image](https://github.com/user-attachments/assets/6a14be4d-ec67-4358-b2bc-614385dfb564)
 
 
+
+
+
 You can check it has same output 
 ![image](https://github.com/user-attachments/assets/82174314-c702-4eef-8fcd-7f457b512b1f)
 
@@ -435,7 +438,35 @@ We can put things back the way they were by using git restore:
 ![image](https://github.com/user-attachments/assets/c8ecd60f-4292-437a-a77e-3bc37ff229c1)
 
 
+**Ignoring Things**
 
+###### How can I tell Git to ignore files I don’t want to track?
+
+What if we have files that we do not want Git to track for us, like backup files created by our editor or intermediate files created during data analysis? Let’s create a few dummy files:
+
+
+
+![image](https://github.com/user-attachments/assets/06ecdb65-a5bb-402f-a1d8-abfd25ad3819)
+
+
+and see what Git says:
+
+![image](https://github.com/user-attachments/assets/f451ecf3-b381-428f-9c4d-8875f32f0dbc)
+
+To prevent Git from tracking these files and to avoid unnecessary disk space usage or distractions, you can use a .gitignore file
+
+We do this by creating a file in the root directory of our project called .gitignore:
+
+![image](https://github.com/user-attachments/assets/e78665f9-686d-43d0-a4e9-433af0e266cc)
+
+
+
+
+![image](https://github.com/user-attachments/assets/91841fad-6615-4a29-ab16-cd70c4d7d35d)
+
+
+
+These patterns tell Git to ignore any file whose name ends in .png and everything in the receipts directory. (If any of these files were already being tracked, Git would continue to track them.)
 
 
 
