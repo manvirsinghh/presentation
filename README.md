@@ -593,3 +593,34 @@ To clone the Owner’s repo into her Desktop folder, the Collaborator enters:
 $ git clone git@github.com:username/recipes.git folder name 
 
 
+
+**Conflicts**
+
+###### What do I do when my changes conflict with someone else’s?
+
+
+
+
+As soon as people can work in parallel, they’ll likely step on each other’s toes. This will even happen with a single person: if we are working on a piece of software on both our laptop and a server in the lab, we could make different changes to each copy. Version control helps us manage these conflicts by giving us tools to resolve overlapping changes.
+
+**Citation**
+A citation is a way to give credit to the original creator of a project or work. On GitHub, it’s a way for others to reference your code or project in their own work, like in research papers.
+
+
+### *Hosting*
+Hosting on GitHub typically refers to making your project or website available online 
+1. GitHub Pages
+
+GitHub Pages is a feature that allows you to host a website directly from a GitHub repository. It's mainly used for personal, project, or documentation websites.
+
+    How it works: You create a repository, push your HTML, CSS, and JavaScript files to it, and GitHub hosts it for you.
+    Usage:
+        Personal site: https://username.github.io
+        Project site: https://username.github.io/repository-name
+
+To set up GitHub Pages:
+
+   -  Go to your repository settings.
+   -  Scroll down to the GitHub Pages section.
+   -  Choose the branch you want to publish (usually main or gh-pages).
+   -  Your site will be available at https://username.github.io/repository-name.
