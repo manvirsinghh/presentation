@@ -386,7 +386,7 @@ After reviewing our change, it’s time to commit it:
 
 ![image](https://github.com/user-attachments/assets/581d45b7-06d5-41f3-8d78-0d1fb05e6648)
 
-Git insists that we add files to the set we want to commit before actually committing anything. This allows us to commit our changes in stages and capture changes in logical portions rather than only large batches. 
+
 
 
 
@@ -555,53 +555,17 @@ We’ll discuss remotes in more detail further , while talking about how they mi
  ![image](https://github.com/user-attachments/assets/7e3a6a1e-79aa-46e1-8e17-b657c4b90363)
 
 
-**Collaborating**
-
-
- ###### How can weuse version control to collaborate with other people?
-
- For the next step, get into pairs. One person will be the “Owner” and the other will be the “Collaborator”. The goal is that the Collaborator add changes into the Owner’s repository. We will switch roles at the end, so both persons will play Owner and Collaborator.
-
-
-
- The Owner needs to give the Collaborator access. In your repository page on GitHub, click the “Settings” button on the right, select “Collaborators”, click “Add people”, and then enter your partner’s username
-Here I am owner and sukhlotey is collaborator 
-
- ![image](https://github.com/user-attachments/assets/2523bb79-0701-41c6-b209-0635dd998e66)
-
-
-Then add people 
-
-![image](https://github.com/user-attachments/assets/c737220f-30db-4414-9914-050ef14164ba)
-
-i have successfully added the collaborator named sukhlotey
-
-
-
-To accept access to the Owner’s repo, the Collaborator needs to go to https://github.com/notifications or check for email notification. Once there he can accept access to the Owner’s repo.
-
-Next, the Collaborator needs to download a copy of the Owner’s repository to her machine. This is called “cloning a repo”.
-
-
-
-The Collaborator doesn’t want to overwrite her own version of recipes.git, so needs to clone the Owner’s repository to a different location than her own repository with the same name.
-
-
-
-To clone the Owner’s repo into her Desktop folder, the Collaborator enters:
-
-$ git clone git@github.com:username/recipes.git folder name 
-
-
-
-**Conflicts**
-
-###### What do I do when my changes conflict with someone else’s?
 
 
 
 
-As soon as people can work in parallel, they’ll likely step on each other’s toes. This will even happen with a single person: if we are working on a piece of software on both our laptop and a server in the lab, we could make different changes to each copy. Version control helps us manage these conflicts by giving us tools to resolve overlapping changes.
+
+
+
+
+
+
+
 
 **Citation**
 A citation is a way to give credit to the original creator of a project or work. On GitHub, it’s a way for others to reference your code or project in their own work, like in research papers.
