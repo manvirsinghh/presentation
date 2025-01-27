@@ -11,6 +11,34 @@
 
  ### 🔍 Learnings from the Workshop:
 
+
+# Git vs GitHub
+
+## Git (Version Control System):
+
+Git is the version control system, and it works locally on your machine. You don’t need a server to use Git at all. You can create and manage repositories locally, track changes, and commit your code without relying on any external server.
+
+## GitHub (Hosting Platform):
+
+GitHub is an online service that acts as a server to store your Git repositories. It’s not required to use Git, but it’s commonly used for:
+- Remote storage of repositories (backing up your code).
+- Collaboration on projects, allowing multiple people to work on the same codebase.
+- Access control and visibility management (private or public repositories).
+
+## In summary:
+
+- Git doesn't require a server. You can use it fully offline.
+- GitHub (or other similar platforms like GitLab, Bitbucket) acts as a server to host your repositories remotely, enabling collaboration, backup, and sharing.
+
+## Do You Need a Server?
+
+If you’re working solo on a project and don’t need to share or collaborate with others, you don’t need a server (like GitHub). You can just use Git locally to manage your project.
+
+However, if you want to collaborate with others, share your work, or back up your code to the cloud, you’d use a platform like GitHub to act as your remote server.
+
+
+
+
  # **Summary and setup**
 
 # Example Scenario: Group Project for University
