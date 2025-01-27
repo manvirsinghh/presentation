@@ -21,12 +21,13 @@
         Alice writes the introduction in report.docx and emails it to Bob.
         Bob adds the body section and sends the file back to Alice.
         Meanwhile, Charlie edits the same original report.docx to add the conclusion.
-        Problem: When all three versions are combined, some sections may be overwritten, duplicated, or lost entirely. It’s also unclear who made which changes and when.
+        Problem: When all three versions are combined, some sections may be overwritten, duplicated, or lost entirely. 
+        It’s also unclear who made which changes and when.
 
    ###   With Git:
         Alice, Bob, and Charlie each clone the same repository of the report.docx file.
         Alice works on the introduction, Bob on the body, and Charlie on the conclusion simultaneously.
-        They commit and push their changes to the repository. If there’s a conflict (e.g., two people editing the same part), Git flags it for resolution.
+        They commit and push their changes to the repository. 
         Solution: Everyone’s contributions are seamlessly merged, and the entire team can see a clear history of edits.
 
   ## **Prerequisites**
@@ -57,7 +58,7 @@ nano --version          # Verify the installation
 
 Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. You will need a supported web browser.
 
-You will need an account at github.com for parts of the Git lesson. Basic GitHub accounts are free. We encourage you to create a GitHub account if you don't have one already. 
+ 
 
 
 For Debian/Ubuntu run 
@@ -89,8 +90,8 @@ Demonstration of git installation
 
 ## **What is MFA?**
 MFA ensures that even if someone has your password, they need a second form of verification, such as:
-1. A **code** from your phone.
-2. A **hardware security key**.
+- A **code** from your phone.
+
 
 ---
 
@@ -104,7 +105,7 @@ You have several options based on your convenience:
 ### **2. Don’t Have an Authenticator App?**
 No problem! You can:
 - **Receive login codes via SMS** (check if your country supports this).
-- **Use a hardware security key** like **YubiKey** or **Google Titan Key** for the highest level of security.
+
 
 ---
 
@@ -141,7 +142,6 @@ Think of your GitHub account as your house:
 2. Choose the method that works best for you:
    - Authenticator App
    - SMS
-   - Hardware Security Key
 3. Stay secure and keep your projects safe!
 
 ## Preparing Your Working Directory
@@ -197,7 +197,7 @@ cd Desktop   # Change directory to the Desktop folder
 ---
 
 
- ##⚙️ Setting Up Git:
+ ## ⚙️ Setting Up Git:
 
 ### ** How do I get set up to use Git? **
 When using Git for the first time on a computer, some configurations are necessary:
@@ -246,7 +246,7 @@ $ git config -h
 $ git config --help
 ```
 
-📂 Creating a Repository:
+ ## 📂 Creating a Repository:
 Once Git is configured, we can start using it.
 
 First, let’s create a new directory in the Desktop folder for our work and then change the current working directory to the newly created one:
